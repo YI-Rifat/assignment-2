@@ -126,5 +126,58 @@
     line-height: 1rem;
     font-size: .8rem;
 }
+
+/* --------------------------------- */
+/* Footer Section */
+/* --------------------------------- */
     
+
+footer{
+    padding: rem;
+}
+footer .container{
+    flex-direction: column;
+    padding: 0;
+}
+footer .container .box{
+    width: 100vw;
+    padding: 3rem; 
+}
+footer .container .box-2{
+    text-align: left;
+}
+footer .container .miniBox{
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+footer .container .miniBox img{
+    height: 6.5rem;
+}
+footer .container .miniBox h2{
+    font-size: 3.2rem;
+}
+footer .container .miniBox p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin-top: 0rem;
+}
+footer .container .box h4{
+    font-size: 2rem;
+}
+footer .container .box-2 ul{
+    position: relative;
+    text-align: left;
+    left: 0;
+}
+footer .container .box-2 ul li{
+    margin: 1.5rem 0;
+}
+footer .container .box-2 ul li p{
+    font-size: 1.9rem;
+    color: #fff;
+}
+
+
 }
