@@ -6,6 +6,10 @@
 }
 html{
     font-size: 10px;
+    scrollbar-width: none;
+}
+body{
+    overflow-x: hidden;
 }
 header,
 main,
@@ -180,6 +184,8 @@ nav button:hover{
     width: 137rem;
     height: 83.5rem;
     margin: 4.8rem 0;
+    background-image: url(../Images/bg.png);
+    background-size: cover;
 }
 .standard-section .container{
     text-align: center;
@@ -188,7 +194,6 @@ nav button:hover{
     font-size: 4.4rem;
     font-weight: 700;
 }
-
 .standard-section .row{
     gap: 2.5rem;
     margin: 7.6rem 0;
@@ -289,4 +294,107 @@ nav button:hover{
     color: #fff;
 
 
+}
+
+/* --------------------------------- */
+/* Story Section */
+/* --------------------------------- */
+
+.story-section{
+    width: 100%;
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding: 5rem 0;
+}
+.story-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.4rem;
+}
+.story-section .container h2{
+    font-size: 4.2rem;
+    font-weight: 700;
+
+}
+.story-section .col{
+    margin: 0 1rem;
+}
+.story-section .row-1{
+    display: flex;
+}
+.story-section .row-1 .col-1{
+    width: 51.3rem;
+    height: 60rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+}
+.story-section .row-1 .col .upper img{
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.story-section .row-1 .col .lower{
+    padding: 3.6rem;
+    position: relative;
+    
+}
+.story-section .row-1 .col .lower span{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 1.4rem;
+    border-radius: 5rem;
+    background-color: rgb(60, 216, 232);
+    position: absolute;
+    top: -2.5rem;
+}
+.story-section .row-1 .col .lower h4{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+    margin-bottom: 4.8rem;
+}
+.story-section .row-1 .col .lower p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgb(102, 102, 102);
+    
+}
+.story-section .row-2_1,
+.story-section .row-2_2{
+    display: flex;
+    margin-bottom: 3rem;
+} 
+.story-section .row-2_1 .col,
+.story-section .row-2_2 .col{
+    width: 27.6rem;
+    height: 28.6rem;
+    background-color: #fff;
+    border-radius: 1.4rem;
+}
+.story-section .row-2_1 .col .lower h4,
+.story-section .row-2_2 .col .lower h4{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+}
+.story-section .row-2_1 .col-1 .lower span,
+.story-section .row-2_2 .col-1 .lower span{
+    padding: .9rem 1.8rem;
+    background-color: rgb(149, 178, 38);
+}
+.story-section .row-2_1 .col-2 .lower span,
+.story-section .row-2_2 .col-2 .lower span{
+    padding: .9rem 1.8rem;
+    background-color: rgb(93, 88, 240);
+}
+.story-section .container .btn{
+    background-color: #000;
+    color: #fff;
+}
+.story-section .container .btn:hover{
+    background-color: #fff;
+    color: #000;
+    font-size: 2.6rem;
+    border: .3rem solid #000;
+    transition: 300ms ease-in-out;
 }
